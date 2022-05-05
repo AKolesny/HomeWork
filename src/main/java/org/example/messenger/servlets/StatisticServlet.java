@@ -35,6 +35,7 @@ public class StatisticServlet extends HttpServlet {
             resp.sendError(400, "Нет доступа!");
         }
 
-        req.getRequestDispatcher("/statistics.jsp").forward(req, resp);
+        req.getRequestDispatcher("/statistic.jsp").forward(req, resp);
+
     }
 }

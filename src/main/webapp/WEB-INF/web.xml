@@ -5,7 +5,7 @@
 	<display-name>voting</display-name>
 
 	<listener>
-		<listener-class>by.it_academy.jd2.jsp.statistics.listeners.ActiveUserListener</listener-class>
+		<listener-class>org.example.messenger.servlets.listeners.CountActiveUser</listener-class>
 	</listener>
 
 </web-app>

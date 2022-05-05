@@ -1,6 +1,5 @@
 package org.example.messenger.servlets.listeners;
 
-import org.example.messenger.core.dto.User;
 import org.example.messenger.service.Statistic;
 
 import javax.servlet.http.HttpSessionActivationListener;
